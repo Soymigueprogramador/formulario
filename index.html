@@ -8,27 +8,29 @@
     <title>formularios con flex</title>
 </head>
 <body>
-    <div class="flex-conteiner">
+    <h1> Formulario de contacto </h1>
+
+    <main>
+        <div class="flex-conteiner">
         <form class="form">
-            <div class="form__selection">
-                <h2>Email</h2>>                
-                <input type="text" class="form__input">
+            <div class="form__selection">                
+                <input type="text" class="form__input" name="Email" placeholder="Email">
+            </div>
+            <div class="form__selection">                
+                <input type="text" class="form__input" name="Asunto" placeholder="Asynto">
             </div>
             <div class="form__selection">
-                <h2>Nombre</h2>
-                <input type="text" class="form__input">
+                <input type="text" class="form__input" name="Nombre" placeholder="Nombre">
             </div>
             <div class="form__textarea">
-                <h2>Mensaje</h2>
-                <textarea type="text" class="form__input"></textarea>
+                <textarea type="text" class="form__input" name="Mensaje" placeholder="Mensaje"></textarea>
             </div>
             <div class="form__button"> 
-                <input type="submit" value="enviar formulario" class="boton">
+                <input type="submit" value="Enviar" class="boton">
             </div>
         </form>
-        <div class="form__image">
-            <img src="https://cdn-icons-png.flaticon.com/512/20/20173.png">
-        </div>
     </div>
+    </main>
+
 </body>
 </html>
